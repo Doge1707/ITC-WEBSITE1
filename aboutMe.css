@@ -1,0 +1,73 @@
+.top-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 20px;
+    font-size: 1.55rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.top-container p:hover{
+    transition: color 0.3s;
+    color: #ffd700;
+}
+
+.intro-container{
+    background: linear-gradient(to bottom right, rgba(41, 50, 100, 0.9), rgba(20, 30, 70, 0.9));
+    border-radius: 15px;
+    padding: 2rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    margin-top: 7.5rem;
+    text-align: justify;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.content-section {
+    flex: 2;  
+    background: rgba(20, 24, 48, 0.7);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-section {
+    margin-bottom: 2rem; 
+}
+
+.academic-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.academic-section h3 {
+    font-size: 1.3rem;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.academic-section p {
+    margin: 0.3rem 0;
+    color: #e0e0e0;
+}
+
+.image-section {
+    flex: 1;
+    background: rgba(20, 24, 48, 0.7);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
